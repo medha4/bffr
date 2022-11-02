@@ -4,4 +4,5 @@ api = Flask(__name__)
 
 @api.route('/')
 def hello_world():
-    return "Hello World!"
+    # return render_template('index.html')
+    return "hello world"
